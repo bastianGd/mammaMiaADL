@@ -15,8 +15,8 @@ const PizzaCard = ({ img, pizzaName, ingredients, price}) => {
           </Card.Subtitle>
           <Card.Text className="text-center" style={{ fontStyle: "italic" }}>
           {ingredients.map((ingredient, index) => (
-            <span key={index}>{ingredient}{" - "}</span>
-          ))}
+            <span key={index}>{ingredient + "-"}</span>
+          ))} 
           </Card.Text>
           <Card.Text className="text-center" style={{ fontSize: "1.25rem", fontWeight: "bold" }}>
             $ <span>{formatNumber(price)}</span>
