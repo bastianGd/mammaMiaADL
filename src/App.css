@@ -19,3 +19,8 @@
 hr {
     width: 500px;
 }
+
+legend {
+  text-decoration: underline 2px green double;
+}
+
