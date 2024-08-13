@@ -27,8 +27,7 @@ const Formulario = () => {
       return;
     }
 
-    setError("");
-    setPasswordCheck(true); 
+    setError(""); 
     setEmail("");
     setPassword("");
     setPasswordConfirm("");
